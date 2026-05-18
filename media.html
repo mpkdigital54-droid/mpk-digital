@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Media Hub — Technology, AI & Digital Marketing News | MPK Digital Kenya</title>
+<meta name="description" content="In-depth technology, AI, digital marketing, digital business, and media culture articles for East Africa. MPK Digital covers Kenya's digital economy with expert analysis and actionable insights.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="MPK Digital">
+<link rel="canonical" href="https://mpkdigital.co.ke/media.html">
+<!-- Open Graph -->
+<meta property="og:title" content="Media Hub — Technology, AI & Digital Marketing News | MPK Digital Kenya">
+<meta property="og:description" content="In-depth technology, AI, digital marketing, digital business, and media culture articles for East Africa. MPK Digital covers Kenya's digital economy with expert analysis and actionable insights.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mpkdigital.co.ke/media.html">
+<meta property="og:site_name" content="MPK Digital">
+<meta property="og:locale" content="en_KE">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Media Hub — Technology, AI & Digital Marketing News | MPK Digital Kenya">
+<meta name="twitter:description" content="In-depth technology, AI, digital marketing, digital business, and media culture articles for East Africa. MPK Digital covers Kenya's digital economy with expert analysis and actionable insights.">
+<meta name="twitter:site" content="@mpkdigital">
+<!-- Geo -->
+<meta name="geo.region" content="KE-30">
+<meta name="geo.placename" content="Nairobi">
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CollectionPage","name":"MPK Digital Media Hub","description":"Technology, AI, digital marketing, digital business, and media culture articles for East Africa.","url":"https://mpkdigital.co.ke/media.html","publisher":{"@type":"Organization","name":"MPK Digital","url":"https://mpkdigital.co.ke"},"about":[{"@type":"Thing","name":"Technology"},{"@type":"Thing","name":"Artificial Intelligence"},{"@type":"Thing","name":"Digital Marketing"},{"@type":"Thing","name":"Digital Business"}]}
+</script>
+<style>
+/* =============================================
+   MPK DIGITAL — SHARED STYLESHEET v3
+   All pages import this block
+============================================= */
+:root{
+  --blue:#0A3CFF;--blue-dk:#0228CC;--blue-lt:#EEF2FF;--blue-mid:#DBEAFE;
+  --red:#E81C24;--red-dk:#B91C1C;
+  --dark:#0F172A;--body-c:#334155;--muted:#64748B;--subtle:#94A3B8;
+  --border:#E2E8F0;--bg:#F8FAFF;--white:#FFFFFF;--green:#16A34A;
+  --font-d:'Syne',sans-serif;--font-b:'DM Sans',sans-serif;
+  --nav-h:68px;--ease:.22s cubic-bezier(.4,0,.2,1);
+  --sh:0 4px 20px rgba(10,60,255,.08),0 1px 4px rgba(15,23,42,.05);
+  --sh-lg:0 16px 48px rgba(10,60,255,.13),0 4px 16px rgba(15,23,42,.06);
+  --r:12px;--r-lg:20px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--font-b);background:var(--bg);color:var(--body-c);line-height:1.65;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+
+/* NAV */
+.nav{position:fixed;top:0;left:0;right:0;z-index:999;height:var(--nav-h);background:rgba(255,255,255,.97);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 clamp(16px,4vw,52px);gap:6px;transition:box-shadow var(--ease)}
+.nav.scrolled{box-shadow:var(--sh)}
+.nav-logo{font-family:var(--font-d);font-weight:800;font-size:1.3rem;color:var(--dark);letter-spacing:-.5px;margin-right:12px;white-space:nowrap}
+.nav-logo span{color:var(--red)}
+.nav-links{display:flex;align-items:center;gap:1px;list-style:none;flex:1}
+.nav-links a{font-family:var(--font-d);font-weight:600;font-size:.81rem;color:var(--body-c);padding:7px 11px;border-radius:8px;transition:background var(--ease),color var(--ease);white-space:nowrap;display:block}
+.nav-links a:hover,.nav-links a.active{background:var(--blue-lt);color:var(--blue)}
+.nav-cta{background:var(--blue);color:var(--white)!important;padding:8px 18px!important;border-radius:8px!important;transition:background var(--ease),transform var(--ease)!important;margin-left:8px}
+.nav-cta:hover{background:var(--blue-dk)!important;transform:translateY(-1px)}
+.nav-cta.active{background:var(--blue-dk)!important}
+.nav-ham{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;border:none;background:transparent;margin-left:auto;border-radius:8px}
+.nav-ham span{display:block;width:22px;height:2px;background:var(--dark);border-radius:2px;transition:all var(--ease)}
+.nav-ham.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.nav-ham.open span:nth-child(2){opacity:0;transform:scaleX(0)}
+.nav-ham.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mobile-nav{display:none;position:fixed;top:var(--nav-h);left:0;right:0;background:var(--white);border-bottom:1px solid var(--border);box-shadow:var(--sh-lg);z-index:998;padding:12px 20px 20px;max-height:calc(100vh - var(--nav-h));overflow-y:auto}
+.mobile-nav.open{display:block}
+.mobile-nav a{display:block;padding:11px 14px;border-radius:9px;font-family:var(--font-d);font-weight:600;font-size:.9rem;color:var(--dark);transition:background var(--ease);margin-bottom:2px}
+.mobile-nav a:hover,.mobile-nav a.active{background:var(--blue-lt);color:var(--blue)}
+.mob-divider{height:1px;background:var(--border);margin:10px 0}
+
+/* LAYOUT */
+.wrap{max-width:1200px;margin:0 auto;padding:0 clamp(16px,4vw,52px)}
+.section{padding:clamp(56px,8vw,104px) 0}
+.section-alt{background:var(--white)}
+
+/* TYPOGRAPHY */
+.eyebrow{display:inline-flex;align-items:center;gap:7px;font-family:var(--font-d);font-size:.68rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--blue);background:var(--blue-lt);padding:5px 13px;border-radius:100px;margin-bottom:16px}
+.eyebrow.red{color:var(--red);background:#FEE8E9}
+.eyebrow.green{color:var(--green);background:#F0FDF4}
+.eyebrow.white{color:white;background:rgba(255,255,255,.15)}
+.h1{font-family:var(--font-d);font-size:clamp(2.4rem,5.5vw,4.4rem);font-weight:800;line-height:1.04;letter-spacing:-.04em;color:var(--dark)}
+.h2{font-family:var(--font-d);font-size:clamp(1.65rem,3.2vw,2.6rem);font-weight:700;line-height:1.17;letter-spacing:-.03em;color:var(--dark)}
+.h3{font-family:var(--font-d);font-size:clamp(1rem,1.7vw,1.22rem);font-weight:700;line-height:1.3;color:var(--dark)}
+.lead{font-size:clamp(.95rem,1.4vw,1.1rem);color:var(--muted);line-height:1.74;font-weight:300}
+.body-text{font-size:.95rem;color:var(--muted);line-height:1.75}
+.text-sm{font-size:.82rem;color:var(--subtle)}
+.text-center{text-align:center}
+
+/* BUTTONS */
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 26px;border-radius:var(--r);border:none;cursor:pointer;font-family:var(--font-d);font-weight:700;font-size:.86rem;text-decoration:none;transition:all var(--ease);white-space:nowrap;line-height:1}
+.btn-blue{background:var(--blue);color:var(--white)}
+.btn-blue:hover{background:var(--blue-dk);transform:translateY(-2px);box-shadow:0 8px 28px rgba(10,60,255,.32)}
+.btn-red{background:var(--red);color:var(--white)}
+.btn-red:hover{background:var(--red-dk);transform:translateY(-2px);box-shadow:0 8px 24px rgba(232,28,36,.3)}
+.btn-outline{background:transparent;color:var(--blue);border:2px solid var(--blue)}
+.btn-outline:hover{background:var(--blue);color:var(--white)}
+.btn-ghost{background:transparent;color:var(--dark);border:1.5px solid var(--border)}
+.btn-ghost:hover{border-color:var(--blue);color:var(--blue);background:var(--blue-lt)}
+.btn-white{background:var(--white);color:var(--blue)}
+.btn-white:hover{background:var(--blue-lt);transform:translateY(-2px)}
+.btn-dark{background:var(--dark);color:var(--white)}
+.btn-dark:hover{background:#1E293B;transform:translateY(-2px)}
+.btn-sm{padding:8px 16px;font-size:.78rem}
+.btn-lg{padding:15px 32px;font-size:.95rem}
+.btn-full{width:100%;justify-content:center}
+
+/* PAGE HERO */
+.page-hero{padding-top:calc(var(--nav-h) + clamp(40px,6vw,72px));padding-bottom:clamp(40px,5vw,64px);background:linear-gradient(150deg,#EEF4FF 0%,#F8FAFF 55%,#FFF5F5 100%);border-bottom:1px solid var(--border);position:relative;overflow:hidden}
+.page-hero::before{content:'';position:absolute;inset:0;background-image:radial-gradient(circle,rgba(10,60,255,.035) 1px,transparent 1px);background-size:28px 28px;pointer-events:none}
+.page-hero .h1{margin-bottom:16px}
+.page-hero .lead{max-width:640px}
+
+/* BREADCRUMB */
+.breadcrumb{display:flex;align-items:center;gap:7px;font-size:.8rem;color:var(--subtle);margin-bottom:20px;flex-wrap:wrap}
+.breadcrumb a{color:var(--blue);transition:text-decoration var(--ease)}
+.breadcrumb a:hover{text-decoration:underline}
+.breadcrumb-sep{color:var(--border)}
+
+/* SECTION HEADER */
+.sec-head{margin-bottom:48px}
+.sec-head .h2{margin-bottom:10px}
+.sec-row{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:44px}
+
+/* CARDS - Article */
+.art-grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.art-grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+
+.art-card{background:var(--white);border:1px solid var(--border);border-radius:var(--r-lg);overflow:hidden;transition:all var(--ease);display:flex;flex-direction:column;text-decoration:none;color:inherit}
+.art-card:hover{transform:translateY(-5px);box-shadow:var(--sh-lg);border-color:rgba(10,60,255,.2)}
+.art-thumb{width:100%;height:178px;display:flex;align-items:center;justify-content:center;font-size:2.8rem;position:relative;overflow:hidden}
+.art-thumb-tag{position:absolute;top:12px;left:12px;font-size:.65rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 10px;border-radius:100px;background:rgba(255,255,255,.92);backdrop-filter:blur(4px)}
+.art-body{padding:20px;flex:1;display:flex;flex-direction:column}
+.art-cat{font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--blue);margin-bottom:8px;display:block}
+.art-cat.red{color:var(--red)}
+.art-cat.green{color:var(--green)}
+.art-cat.amber{color:#D97706}
+.art-cat.purple{color:#9333EA}
+.art-title{font-family:var(--font-d);font-weight:700;font-size:1rem;line-height:1.38;color:var(--dark);margin-bottom:9px}
+.art-exc{font-size:.865rem;color:var(--muted);line-height:1.62;flex:1}
+.art-foot{padding:13px 20px;border-top:1px solid var(--border);display:flex;align-items:center;gap:14px;font-size:.76rem;color:var(--subtle)}
+.art-read-time{margin-left:auto;color:var(--blue);font-weight:600;font-family:var(--font-d)}
+
+/* Service card */
+.svc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.svc-card{background:var(--white);border:1px solid var(--border);border-radius:var(--r-lg);padding:28px 30px;transition:all var(--ease);display:flex;flex-direction:column}
+.svc-card:hover{border-color:var(--blue);box-shadow:var(--sh-lg);transform:translateY(-4px)}
+.svc-icon{width:50px;height:50px;border-radius:13px;background:var(--blue-lt);display:flex;align-items:center;justify-content:center;font-size:1.4rem;margin-bottom:18px}
+.svc-icon.red{background:#FEE8E9}
+.svc-card .h3{margin-bottom:10px}
+.svc-card>p{font-size:.875rem;color:var(--muted);line-height:1.65;margin-bottom:20px;flex:1}
+
+/* Learn card */
+.learn-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.lc{background:var(--white);border:1px solid var(--border);border-radius:var(--r-lg);padding:24px;transition:all var(--ease)}
+.lc:hover{border-color:var(--blue);box-shadow:var(--sh);transform:translateY(-3px)}
+.lc-num{font-family:var(--font-d);font-size:1.9rem;font-weight:800;color:var(--blue-mid);line-height:1;margin-bottom:12px;letter-spacing:-.04em}
+.lc-tag{display:inline-flex;font-size:.67rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:var(--blue-lt);color:var(--blue);padding:3px 10px;border-radius:100px;margin-bottom:12px}
+.lc-tag.g{background:#F0FDF4;color:var(--green)}
+.lc-tag.r{background:#FEE8E9;color:var(--red)}
+.lc .h3{margin-bottom:8px;font-size:.97rem}
+.lc p{font-size:.85rem;color:var(--muted);line-height:1.62}
+
+/* Benefit list */
+.ben-list{list-style:none}
+.ben-list li{display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid var(--border);font-size:.86rem;color:var(--muted);line-height:1.55}
+.ben-list li:last-child{border-bottom:none}
+.ben-list li::before{content:'→';color:var(--blue);font-weight:700;flex-shrink:0;margin-top:1px}
+
+/* Badge strip */
+.badge-wrap{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}
+.badge{display:inline-flex;align-items:center;gap:5px;padding:4px 11px;border-radius:100px;background:var(--white);border:1px solid var(--border);font-size:.76rem;font-weight:500;color:var(--muted)}
+.badge::before{content:'✓';color:var(--blue);font-weight:800;font-size:.7rem}
+
+/* Info box */
+.info-box{background:var(--blue-lt);border-left:4px solid var(--blue);border-radius:var(--r);padding:14px 18px;font-size:.88rem;color:var(--dark);line-height:1.6;margin-bottom:36px}
+.info-box strong{color:var(--blue)}
+
+/* FAQ */
+.faq-list{display:flex;flex-direction:column;gap:10px}
+.faq-item{background:var(--white);border:1px solid var(--border);border-radius:var(--r-lg);overflow:hidden}
+.faq-q{display:flex;align-items:center;justify-content:space-between;padding:17px 22px;cursor:pointer;font-family:var(--font-d);font-weight:700;font-size:.93rem;color:var(--dark);transition:background var(--ease);gap:12px;user-select:none}
+.faq-q:hover{background:var(--bg)}
+.faq-arr{font-size:.75rem;transition:transform var(--ease);flex-shrink:0;color:var(--subtle)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .38s ease,padding .38s ease;font-size:.875rem;color:var(--muted);line-height:1.72;padding:0 22px}
+.faq-item.open .faq-a{max-height:300px;padding:0 22px 18px}
+.faq-item.open .faq-arr{transform:rotate(180deg)}
+.faq-item.open .faq-q{color:var(--blue)}
+
+/* CTA BAND */
+.cta-band{background:linear-gradient(130deg,var(--blue) 0%,var(--blue-dk) 100%);padding:clamp(52px,7vw,96px) 0;text-align:center;position:relative;overflow:hidden}
+.cta-band::before{content:'';position:absolute;inset:0;background-image:radial-gradient(circle,rgba(255,255,255,.05) 1px,transparent 1px);background-size:22px 22px}
+.cta-band .h2{color:var(--white);margin-bottom:12px}
+.cta-band .lead{color:rgba(255,255,255,.76);max-width:520px;margin:0 auto 30px}
+.cta-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;position:relative}
+
+/* FOOTER */
+footer{background:var(--dark);color:rgba(255,255,255,.62)}
+.foot-inner{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr 1fr;gap:44px;padding:clamp(52px,7vw,88px) 0 48px}
+.foot-logo{font-family:var(--font-d);font-weight:800;font-size:1.28rem;color:var(--white);margin-bottom:10px}
+.foot-logo span{color:var(--red)}
+.foot-tag{font-size:.84rem;color:rgba(255,255,255,.42);line-height:1.65;max-width:200px;margin-bottom:18px}
+.foot-socials{display:flex;gap:9px}
+.foot-soc{width:33px;height:33px;border-radius:8px;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;font-size:.82rem;color:rgba(255,255,255,.6);transition:background var(--ease),color var(--ease);cursor:pointer}
+.foot-soc:hover{background:var(--blue);color:white}
+.foot-col h5{font-family:var(--font-d);font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.32);margin-bottom:14px}
+.foot-links{list-style:none}
+.foot-links li{margin-bottom:8px}
+.foot-links a{font-size:.858rem;color:rgba(255,255,255,.58);transition:color var(--ease)}
+.foot-links a:hover{color:var(--white)}
+.foot-links a.highlight{color:var(--red)}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.08);padding:17px 0;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.foot-copy{font-size:.78rem;color:rgba(255,255,255,.32)}
+.foot-legal{display:flex;gap:18px}
+.foot-legal a{font-size:.78rem;color:rgba(255,255,255,.32);transition:color var(--ease)}
+.foot-legal a:hover{color:var(--white)}
+
+/* FORM */
+.form-group{margin-bottom:17px}
+.form-label{display:block;font-family:var(--font-d);font-weight:700;font-size:.78rem;color:var(--dark);margin-bottom:5px}
+.form-label span{color:var(--red)}
+.form-input,.form-select,.form-textarea{width:100%;padding:12px 15px;border:1.5px solid var(--border);border-radius:var(--r);font-family:var(--font-b);font-size:.9rem;color:var(--dark);background:var(--white);transition:border-color var(--ease),box-shadow var(--ease);outline:none}
+.form-input:focus,.form-select:focus,.form-textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(10,60,255,.1)}
+.form-textarea{resize:vertical;min-height:130px;line-height:1.6}
+.form-select{cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L6 7L11 1' stroke='%2394A3B8' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center}
+
+/* REVEAL ANIMATION */
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .52s ease,transform .52s ease}
+.reveal.in{opacity:1;transform:translateY(0)}
+.reveal-d1{transition-delay:.08s}
+.reveal-d2{transition-delay:.16s}
+.reveal-d3{transition-delay:.24s}
+
+/* RESPONSIVE */
+@media(max-width:1100px){.foot-inner{grid-template-columns:1fr 1fr 1fr;gap:36px}}
+@media(max-width:1024px){.art-grid-3{grid-template-columns:repeat(2,1fr)}.learn-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:768px){.nav-links,.nav-cta{display:none}.nav-ham{display:flex}.art-grid-3,.art-grid-2,.svc-grid,.learn-grid{grid-template-columns:1fr}.sec-row{flex-direction:column;align-items:flex-start}.foot-inner{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.foot-inner{grid-template-columns:1fr}.foot-bottom{flex-direction:column;align-items:flex-start}}
+
+</style>
+</head>
+<body><style>
+.media-cats{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:40px}
+.mc{padding:8px 18px;border-radius:100px;font-family:var(--font-d);font-size:.78rem;font-weight:700;border:1.5px solid var(--border);color:var(--muted);cursor:pointer;transition:all var(--ease);text-decoration:none}
+.mc:hover,.mc.active{background:var(--blue);color:var(--white);border-color:var(--blue)}
+.feat-art{display:grid;grid-template-columns:1fr 1fr;background:var(--white);border:1px solid var(--border);border-radius:var(--r-lg);overflow:hidden;margin-bottom:52px;transition:box-shadow var(--ease)}
+.feat-art:hover{box-shadow:var(--sh-lg)}
+.feat-art-thumb{background:linear-gradient(135deg,#EEF2FF,#DBEAFE);display:flex;align-items:center;justify-content:center;font-size:5rem;min-height:260px}
+.feat-art-body{padding:36px}
+.cat-section{margin-bottom:72px}
+.cat-section-head{margin-bottom:32px;padding-bottom:24px;border-bottom:2px solid var(--border)}
+@media(max-width:768px){.feat-art{grid-template-columns:1fr}.feat-art-thumb{min-height:160px}}
+</style>
+<nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+  <a href="index.html" class="nav-logo" aria-label="MPK Digital Home">MPK<span>.</span>Digital</a>
+  <ul class="nav-links" role="list">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="media.html" class="active">Media</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="learn.html">Learn</a></li>
+    <li><a href="digital-solutions.html">Digital Solutions</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html" class="nav-cta">Contact</a></li>
+  </ul>
+  <button class="nav-ham" id="ham" onclick="toggleNav()" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-nav" id="mob" role="navigation" aria-label="Mobile navigation">
+  <a href="index.html">Home</a>
+  <a href="media.html" class="active">Media</a>
+  <a href="blog.html">Blog</a>
+  <a href="learn.html">Learn</a>
+  <a href="digital-solutions.html">Digital Solutions</a>
+  <a href="about.html">About</a>
+  <div class="mob-divider"></div>
+  <a href="contact.html" style="color:var(--blue);font-weight:700">✉ Contact Us</a>
+</div>
+<div class="page-hero">
+  <div class="wrap">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a><span class="breadcrumb-sep">›</span><span aria-current="page">Media</span>
+    </nav>
+    <div class="eyebrow">📰 Media Hub</div>
+    <h1 class="h1">MPK Digital Media</h1>
+    <p class="lead">In-depth articles on technology, AI, digital marketing, digital business, and media culture — written for East Africa's growing digital professional class.</p>
+  </div>
+</div>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <!-- Category nav -->
+    <div class="media-cats reveal" role="navigation" aria-label="Media categories">
+      <a href="#all" class="mc active" onclick="filterMedia('all',this)">All Articles</a>
+      <a href="#technology" class="mc" onclick="filterMedia('technology',this)">💻 Technology</a>
+      <a href="#ai" class="mc" onclick="filterMedia('ai',this)">🤖 Artificial Intelligence</a>
+      <a href="#marketing" class="mc" onclick="filterMedia('marketing',this)">📣 Digital Marketing</a>
+      <a href="#business" class="mc" onclick="filterMedia('business',this)">💼 Digital Business</a>
+      <a href="#culture" class="mc" onclick="filterMedia('culture',this)">🎬 Media &amp; Culture</a>
+    </div>
+
+    <!-- Featured article -->
+    <div class="feat-art reveal" id="feat-article">
+      <div class="feat-art-thumb">💻</div>
+      <div class="feat-art-body">
+        <span class="art-cat" style="display:block;margin-bottom:8px">Technology · Featured</span>
+        <h2 class="h3" style="font-size:clamp(1.2rem,2.5vw,1.7rem);margin-bottom:14px;line-height:1.25">Kenya's Silicon Savannah: How Nairobi Is Leading Africa's Digital Revolution</h2>
+        <p class="body-text" style="margin-bottom:22px">From Safaricom's M-Pesa to hundreds of funded startups, Nairobi has become Africa's undisputed tech capital. We explore the ecosystem, the infrastructure investments, and what the next decade holds for Kenya's digital economy — including the role MPK Digital plays in documenting and enabling that growth.</p>
+        <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+          <a href="#technology" class="btn btn-blue btn-sm">Read Full Article →</a>
+          <span class="text-sm">📅 May 2026 · 6 min read</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- All articles grid -->
+    <div id="article-container">
+      <section id="section-technology" class="cat-section">
+        <div class="cat-section-head" id="technology"><div class="eyebrow">💻</div><h2 class="h2">Technology</h2><p class="body-text" style="max-width:560px;margin-top:8px">The latest in Kenyan and African tech — from startup ecosystems and cloud infrastructure to cybersecurity, mobile connectivity, and digital innovation.</p></div>
+        <div class="art-grid-3"><article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#technology">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#EEF2FF,#DBEAFE)">💻<span class="art-thumb-tag" style="color:var(--blue)">Technology</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat " itemprop="about">Technology</span>
+    <h3 class="art-title" itemprop="headline"><a href="#technology">Kenya's Silicon Savannah: How Nairobi Is Leading Africa's Digital Revolution</a></h3>
+    <p class="art-exc" itemprop="description">From Safaricom's M-Pesa to hundreds of funded startups, Nairobi has become Africa's undisputed tech capital. We explore the ecosystem, the infrastructure investments, and what the next decade holds for Kenya's digital economy.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 May 2026</span><span>·</span><span class="art-read-time">6 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#technology">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#EEF2FF,#DBEAFE)">🔒<span class="art-thumb-tag" style="color:var(--blue)">Technology</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat " itemprop="about">Technology</span>
+    <h3 class="art-title" itemprop="headline"><a href="#technology">Cybersecurity for East African Businesses in 2026: The Complete Protection Guide</a></h3>
+    <p class="art-exc" itemprop="description">Ransomware, phishing, social engineering — cyber threats targeting Kenyan businesses are surging. Here's what every SME needs to know to protect its digital assets and customer data.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 May 2026</span><span>·</span><span class="art-read-time">7 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#technology">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#EEF2FF,#DBEAFE)">📱<span class="art-thumb-tag" style="color:var(--blue)">Technology</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat " itemprop="about">Technology</span>
+    <h3 class="art-title" itemprop="headline"><a href="#technology">Mobile-First Africa: Why 90% of Digital Access Happens via Smartphone</a></h3>
+    <p class="art-exc" itemprop="description">Understanding the mobile internet landscape in East Africa and what it means for developers, marketers, and businesses building digital products for the continent.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 Apr 2026</span><span>·</span><span class="art-read-time">5 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#technology">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#EEF2FF,#DBEAFE)">☁️<span class="art-thumb-tag" style="color:var(--blue)">Technology</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat " itemprop="about">Technology</span>
+    <h3 class="art-title" itemprop="headline"><a href="#technology">AWS vs Azure vs Google Cloud: Which Is Right for African Startups?</a></h3>
+    <p class="art-exc" itemprop="description">A deep comparison of the three major cloud providers with specific focus on Africa latency, local support, cost in KES, and suitability for early-stage startups.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 Apr 2026</span><span>·</span><span class="art-read-time">8 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#technology">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#EEF2FF,#DBEAFE)">🌐<span class="art-thumb-tag" style="color:var(--blue)">Technology</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat " itemprop="about">Technology</span>
+    <h3 class="art-title" itemprop="headline"><a href="#technology">5G in East Africa: What Business Owners Need to Know Right Now</a></h3>
+    <p class="art-exc" itemprop="description">Safaricom and Airtel Kenya are expanding 5G networks rapidly. Here's what this means for your business connectivity, IoT deployments, and competitive advantage.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 Mar 2026</span><span>·</span><span class="art-read-time">5 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#technology">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#EEF2FF,#DBEAFE)">🔋<span class="art-thumb-tag" style="color:var(--blue)">Technology</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat " itemprop="about">Technology</span>
+    <h3 class="art-title" itemprop="headline"><a href="#technology">Solar Tech Hubs: How Renewable Energy Is Powering Kenya's Digital Revolution</a></h3>
+    <p class="art-exc" itemprop="description">Off-grid communities are accessing the digital economy through solar-powered tech hubs. A look at the organisations and technologies making it happen.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 Mar 2026</span><span>·</span><span class="art-read-time">6 min read</span></div>
+</article></div>
+      </section>
+      <section id="section-ai" class="cat-section">
+        <div class="cat-section-head" id="ai"><div class="eyebrow red">🤖</div><h2 class="h2">Artificial Intelligence</h2><p class="body-text" style="max-width:560px;margin-top:8px">Practical, honest coverage of AI tools, automation strategies, and machine learning applications for East African businesses and individuals.</p></div>
+        <div class="art-grid-3"><article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#ai">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#FEE8E9,#FFD6D7)">🤖<span class="art-thumb-tag" style="color:var(--red)">Artificial Intelligence</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat red" itemprop="about">Artificial Intelligence</span>
+    <h3 class="art-title" itemprop="headline"><a href="#ai">Top AI Tools Every Kenyan Entrepreneur Must Use in 2026</a></h3>
+    <p class="art-exc" itemprop="description">From ChatGPT to Claude to Gemini — we break down which AI tools deliver real ROI for East African SMEs and exactly how to integrate them into daily operations without a technical team.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 May 2026</span><span>·</span><span class="art-read-time">7 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#ai">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#FEE8E9,#FFD6D7)">🧠<span class="art-thumb-tag" style="color:var(--red)">Artificial Intelligence</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat red" itemprop="about">Artificial Intelligence</span>
+    <h3 class="art-title" itemprop="headline"><a href="#ai">ChatGPT vs Claude vs Gemini: Honest Comparison for African Business Users</a></h3>
+    <p class="art-exc" itemprop="description">We tested all three across writing, analysis, coding, and customer service tasks. Here's which AI assistant works best depending on your specific use case.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 May 2026</span><span>·</span><span class="art-read-time">8 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#ai">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#FEE8E9,#FFD6D7)">⚙️<span class="art-thumb-tag" style="color:var(--red)">Artificial Intelligence</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat red" itemprop="about">Artificial Intelligence</span>
+    <h3 class="art-title" itemprop="headline"><a href="#ai">AI Automation for East African E-Commerce: A Practical 2026 Guide</a></h3>
+    <p class="art-exc" itemprop="description">How online retailers across Kenya are using AI tools like Zapier, Make.com, and Manychat to automate inventory, customer support, and marketing — and how you can too.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 Apr 2026</span><span>·</span><span class="art-read-time">7 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#ai">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#FEE8E9,#FFD6D7)">📊<span class="art-thumb-tag" style="color:var(--red)">Artificial Intelligence</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat red" itemprop="about">Artificial Intelligence</span>
+    <h3 class="art-title" itemprop="headline"><a href="#ai">Using AI for Business Data Analysis Without a Data Science Team</a></h3>
+    <p class="art-exc" itemprop="description">Google Sheets AI add-ons, Notion AI, and no-code analytics tools that let any business owner turn raw data into actionable business decisions.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 Apr 2026</span><span>·</span><span class="art-read-time">6 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#ai">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#FEE8E9,#FFD6D7)">🎨<span class="art-thumb-tag" style="color:var(--red)">Artificial Intelligence</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat red" itemprop="about">Artificial Intelligence</span>
+    <h3 class="art-title" itemprop="headline"><a href="#ai">AI-Generated Content in 2026: Where It Helps and Where It Hurts</a></h3>
+    <p class="art-exc" itemprop="description">An honest assessment of AI content generation — the quality ceiling, the SEO implications, and the ethical lines businesses must not cross.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 Mar 2026</span><span>·</span><span class="art-read-time">7 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#ai">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#FEE8E9,#FFD6D7)">🏥<span class="art-thumb-tag" style="color:var(--red)">Artificial Intelligence</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat red" itemprop="about">Artificial Intelligence</span>
+    <h3 class="art-title" itemprop="headline"><a href="#ai">AI in East African Healthcare: Real Projects Improving Patient Outcomes</a></h3>
+    <p class="art-exc" itemprop="description">From diagnostic AI tools in Kenyan hospitals to telemedicine platforms, machine learning is quietly transforming healthcare access across the region.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 Mar 2026</span><span>·</span><span class="art-read-time">6 min read</span></div>
+</article></div>
+      </section>
+      <section id="section-marketing" class="cat-section">
+        <div class="cat-section-head" id="marketing"><div class="eyebrow green">📣</div><h2 class="h2">Digital Marketing</h2><p class="body-text" style="max-width:560px;margin-top:8px">SEO, Google Ads, social media, email marketing, and content strategy — all tested and validated in the Kenyan and East African market context.</p></div>
+        <div class="art-grid-3"><article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#marketing">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#F0FDF4,#DCFCE7)">📣<span class="art-thumb-tag" style="color:var(--green)">Digital Marketing</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat green" itemprop="about">Digital Marketing</span>
+    <h3 class="art-title" itemprop="headline"><a href="#marketing">Google Ads vs Meta Ads in Kenya 2026: Complete ROI Comparison</a></h3>
+    <p class="art-exc" itemprop="description">We analysed real campaigns across 50+ Kenyan businesses to determine which platform delivers better ROI, lower CPCs, and stronger conversion rates for different industries.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 May 2026</span><span>·</span><span class="art-read-time">8 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#marketing">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#F0FDF4,#DCFCE7)">🔍<span class="art-thumb-tag" style="color:var(--green)">Digital Marketing</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat green" itemprop="about">Digital Marketing</span>
+    <h3 class="art-title" itemprop="headline"><a href="#marketing">Local SEO in Kenya: How to Rank on Google Without a Big Budget</a></h3>
+    <p class="art-exc" itemprop="description">Step-by-step local SEO strategies specifically tested and validated for Kenyan businesses — covering Google Business Profile, local citations, and on-page signals.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 May 2026</span><span>·</span><span class="art-read-time">7 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#marketing">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#F0FDF4,#DCFCE7)">📱<span class="art-thumb-tag" style="color:var(--green)">Digital Marketing</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat green" itemprop="about">Digital Marketing</span>
+    <h3 class="art-title" itemprop="headline"><a href="#marketing">WhatsApp Business Marketing: The African Entrepreneur's Unfair Advantage</a></h3>
+    <p class="art-exc" itemprop="description">WhatsApp has 97% penetration in Kenya. Here's how to use WhatsApp Business API, broadcast lists, and automated flows to build a profitable marketing channel.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 Apr 2026</span><span>·</span><span class="art-read-time">6 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#marketing">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#F0FDF4,#DCFCE7)">📧<span class="art-thumb-tag" style="color:var(--green)">Digital Marketing</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat green" itemprop="about">Digital Marketing</span>
+    <h3 class="art-title" itemprop="headline"><a href="#marketing">Email Marketing in Africa: Why It Still Delivers the Highest ROI in 2026</a></h3>
+    <p class="art-exc" itemprop="description">Despite newer channels, email consistently outperforms on ROI. Here's how East African businesses can build lists, craft campaigns, and measure what matters.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 Apr 2026</span><span>·</span><span class="art-read-time">5 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#marketing">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#F0FDF4,#DCFCE7)">🎥<span class="art-thumb-tag" style="color:var(--green)">Digital Marketing</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat green" itemprop="about">Digital Marketing</span>
+    <h3 class="art-title" itemprop="headline"><a href="#marketing">Video Marketing for Kenyan Brands: Which Format Drives Results in 2026</a></h3>
+    <p class="art-exc" itemprop="description">YouTube Shorts vs TikTok vs Instagram Reels vs LinkedIn Video — we break down exactly which format works for which audience and business type in Kenya.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 Mar 2026</span><span>·</span><span class="art-read-time">6 min read</span></div>
+</article></div>
+      </section>
+      <section id="section-business" class="cat-section">
+        <div class="cat-section-head" id="business"><div class="eyebrow" style="color:#D97706;background:#FFFBEB">💼</div><h2 class="h2">Digital Business</h2><p class="body-text" style="max-width:560px;margin-top:8px">Building, growing, and scaling online businesses in Kenya — from launching with zero capital to earning in dollars as a freelancer or digital entrepreneur.</p></div>
+        <div class="art-grid-3"><article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#business">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#FFFBEB,#FEF3C7)">💼<span class="art-thumb-tag" style="color:var(--blue)">Digital Business</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat amber" itemprop="about">Digital Business</span>
+    <h3 class="art-title" itemprop="headline"><a href="#business">How to Build a Profitable Online Business in Kenya Starting with Zero Capital</a></h3>
+    <p class="art-exc" itemprop="description">From digital products to freelancing to dropshipping — five proven business models you can start today using free tools and organic growth strategies.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 May 2026</span><span>·</span><span class="art-read-time">9 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#business">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#FFFBEB,#FEF3C7)">💳<span class="art-thumb-tag" style="color:var(--blue)">Digital Business</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat amber" itemprop="about">Digital Business</span>
+    <h3 class="art-title" itemprop="headline"><a href="#business">Digital Payments in Kenya 2026: Beyond M-Pesa — The Complete Guide</a></h3>
+    <p class="art-exc" itemprop="description">Stripe, PayPal, Flutterwave, Pesapal — navigating the expanding Kenyan digital payments landscape for online businesses accepting local and international payments.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 Apr 2026</span><span>·</span><span class="art-read-time">7 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#business">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#FFFBEB,#FEF3C7)">🌍<span class="art-thumb-tag" style="color:var(--blue)">Digital Business</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat amber" itemprop="about">Digital Business</span>
+    <h3 class="art-title" itemprop="headline"><a href="#business">Freelancing from Kenya: Earning in Dollars While Living in Nairobi</a></h3>
+    <p class="art-exc" itemprop="description">How Kenyan freelancers on Upwork, Toptal, Contra, and Fiverr are building $2,000–$10,000/month income streams — the platforms, niches, and strategies that work.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 Apr 2026</span><span>·</span><span class="art-read-time">8 min read</span></div>
+</article></div>
+      </section>
+      <section id="section-culture" class="cat-section">
+        <div class="cat-section-head" id="culture"><div class="eyebrow" style="color:#9333EA;background:#FAF5FF">🎬</div><h2 class="h2">Media &amp; Culture</h2><p class="body-text" style="max-width:560px;margin-top:8px">African content creators, streaming platforms, social media trends, and the intersection of digital technology with culture across the continent.</p></div>
+        <div class="art-grid-3"><article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#culture">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#FAF5FF,#F3E8FF)">🎬<span class="art-thumb-tag" style="color:var(--blue)">Media & Culture</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat purple" itemprop="about">Media & Culture</span>
+    <h3 class="art-title" itemprop="headline"><a href="#culture">African Creators Are Winning the Internet — And Here's How They Did It</a></h3>
+    <p class="art-exc" itemprop="description">From Mr. Beast-style production in Lagos to Kenyan YouTubers hitting 1M subscribers, Africa's content creators are rewriting the rules of digital media.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 May 2026</span><span>·</span><span class="art-read-time">6 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#culture">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#FAF5FF,#F3E8FF)">🎵<span class="art-thumb-tag" style="color:var(--blue)">Media & Culture</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat purple" itemprop="about">Media & Culture</span>
+    <h3 class="art-title" itemprop="headline"><a href="#culture">Afrobeats, Gengetone &amp; Streaming: How African Music Conquered the Global Charts</a></h3>
+    <p class="art-exc" itemprop="description">How African music genres used Spotify, Apple Music, and YouTube to reach listeners in 150+ countries and what the revenue models actually look like.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 Apr 2026</span><span>·</span><span class="art-read-time">7 min read</span></div>
+</article>
+<article class="art-card" itemscope itemtype="https://schema.org/Article">
+  <a href="#culture">
+    <div class="art-thumb" style="background:linear-gradient(135deg,#FAF5FF,#F3E8FF)">📲<span class="art-thumb-tag" style="color:var(--blue)">Media & Culture</span></div>
+  </a>
+  <div class="art-body">
+    <span class="art-cat purple" itemprop="about">Media & Culture</span>
+    <h3 class="art-title" itemprop="headline"><a href="#culture">Social Media in East Africa 2026: Platforms, Trends, and What's Next</a></h3>
+    <p class="art-exc" itemprop="description">TikTok's dominance, X's decline, LinkedIn's rise among Kenyan professionals — a data-driven look at East Africa's shifting social media landscape.</p>
+  </div>
+  <div class="art-foot"><span itemprop="datePublished">📅 Mar 2026</span><span>·</span><span class="art-read-time">5 min read</span></div>
+</article></div>
+      </section>
+    </div>
+  </div>
+</section>
+
+<div class="cta-band">
+  <div class="wrap" style="position:relative">
+    <div class="eyebrow white" style="justify-content:center;margin-bottom:18px">Need Digital Services?</div>
+    <h2 class="h2">Beyond Great Content</h2>
+    <p class="lead">MPK Digital also offers Google Ads management, web development, AI automation, technical writing, and cyber café services in Nairobi.</p>
+    <div class="cta-btns">
+      <a href="digital-solutions.html" class="btn btn-white">View Services →</a>
+      <a href="contact.html" class="btn btn-outline" style="color:white;border-color:rgba(255,255,255,.35)">Contact Us</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-inner">
+      <div>
+        <div class="foot-logo">MPK<span>.</span>Digital</div>
+        <p class="foot-tag">Technology. Media. Digital Solutions.<br>Nairobi, Kenya — Est. 2024</p>
+        <div class="foot-socials">
+          <div class="foot-soc" title="X / Twitter">𝕏</div>
+          <div class="foot-soc" title="LinkedIn">in</div>
+          <div class="foot-soc" title="YouTube">▶</div>
+          <div class="foot-soc" title="Facebook">f</div>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h5>Platform</h5>
+        <ul class="foot-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="media.html">Media Hub</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="learn.html">Learning Hub</a></li>
+          <li><a href="digital-solutions.html">Digital Solutions</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Media Topics</h5>
+        <ul class="foot-links">
+          <li><a href="media.html#technology">Technology</a></li>
+          <li><a href="media.html#ai">Artificial Intelligence</a></li>
+          <li><a href="media.html#marketing">Digital Marketing</a></li>
+          <li><a href="media.html#business">Digital Business</a></li>
+          <li><a href="media.html#culture">Media &amp; Culture</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Digital Services</h5>
+        <ul class="foot-links">
+          <li><a href="digital-solutions.html#ads">Google Ads Marketing</a></li>
+          <li><a href="digital-solutions.html#web">Web Development</a></li>
+          <li><a href="digital-solutions.html#ai">AI &amp; Automation</a></li>
+          <li><a href="digital-solutions.html#writing">Technical Writing</a></li>
+          <li><a href="digital-solutions.html#cyber" class="highlight">Cyber Café Services</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Learn</h5>
+        <ul class="foot-links">
+          <li><a href="learn.html#tutorials">Tutorials</a></li>
+          <li><a href="learn.html#guides">Guides</a></li>
+          <li><a href="learn.html#howto">How-To Articles</a></li>
+          <li><a href="learn.html#beginner">Beginner Resources</a></li>
+          <li><a href="learn.html#tools">Tools Explained</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div class="foot-copy">© 2026 MPK Digital. All rights reserved. Nairobi, Kenya.</div>
+      <div class="foot-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+        <a href="sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+
+window.addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('scrolled',window.scrollY>10));
+function toggleNav(){
+  const h=document.getElementById('ham'),m=document.getElementById('mob');
+  const open=!m.classList.contains('open');
+  h.classList.toggle('open',open);m.classList.toggle('open',open);
+  h.setAttribute('aria-expanded',open);
+}
+document.addEventListener('click',e=>{
+  const m=document.getElementById('mob'),h=document.getElementById('ham');
+  if(!m.contains(e.target)&&!h.contains(e.target)){m.classList.remove('open');h.classList.remove('open');h.setAttribute('aria-expanded','false')}
+});
+const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+function faqToggle(el){
+  const item=el.parentElement,was=item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(f=>f.classList.remove('open'));
+  if(!was)item.classList.add('open');
+}
+
+
+function filterMedia(cat, el){
+  document.querySelectorAll('.mc').forEach(m=>m.classList.remove('active'));
+  el.classList.add('active');
+  document.querySelectorAll('.cat-section').forEach(s=>{
+    s.style.display=(cat==='all'||s.id==='section-'+cat)?'block':'none';
+  });
+  document.getElementById('feat-article').style.display=(cat==='all'||cat==='technology')?'grid':'none';
+}
+
+</script>
+</body>
+</html>
